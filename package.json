@@ -1,0 +1,24 @@
+{
+  "name": "music-guesser-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Music Guesser quiz app.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["quiz", "music", "express", "api"],
+  "author": "",
+  "license": "MIT"
+}
